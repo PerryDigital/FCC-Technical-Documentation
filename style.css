@@ -1,0 +1,23 @@
+@media screen and (min-width: 600px) {
+    .parent {
+        display: flex;
+        }
+  }
+
+header {
+        text-transform: uppercase
+        ;
+    }
+
+#navbar ul {
+    position: fixed;
+}
+
+@media screen and (max-width: 600px) {
+    .parent {
+      display: flex;
+      flex-direction: column;
+      background-color: purple;
+    }
+    
+  }
